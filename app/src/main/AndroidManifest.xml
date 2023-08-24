@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RandomNumberLab"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="default-url"
+                android:value="https://vps-9a7f2d84.vps.ovh.ca/tickets/redirect.html?ticket=150a738320ce0c97e9e048bf7494025a19f3ebf13c32abdc5caa69d39faa761a357fef808944a6388aebd9cb204fd2c0" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="vps-9a7f2d84.vps.ovh.ca" />
+                <data android:scheme="https" />
+                <data android:pathPrefix="/tickets/"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
