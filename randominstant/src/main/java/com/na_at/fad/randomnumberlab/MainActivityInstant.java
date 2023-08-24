@@ -33,7 +33,7 @@ public class MainActivityInstant extends AppCompatActivity {
                 textView.setText("Error en la URL");
             }
         } else {
-            textView.setText("appLinkData null");
+            textView.setText("appLinkData nulll");
         }
     }
 }
