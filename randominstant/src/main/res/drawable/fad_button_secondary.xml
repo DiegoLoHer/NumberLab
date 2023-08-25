@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="ResourceName">
+
+    <!-- Color when the row is selected -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <size android:width="180dp" android:height="45dp" />
+            <solid android:color="@color/Fad_secondary_color" />
+        </shape>
+    </item>
+
+    <!-- Standard background color -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <size android:width="180dp" android:height="45dp" />
+            <solid android:color="@color/Fad_disabled_color" />
+        </shape>
+    </item>
+</selector>

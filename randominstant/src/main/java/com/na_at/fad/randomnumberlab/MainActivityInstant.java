@@ -1,13 +1,17 @@
 package com.na_at.fad.randomnumberlab;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -124,7 +128,8 @@ public class MainActivityInstant extends AppCompatActivity {
             }
         } else if (requestCode == ALL_PERMISSIONS_RESULT_INSTANCE) {
             if (hasPermissions(PERMISSIONSAPP)) {
-                Toast.makeText(this, "PERMISOS OTORGADOS", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, DrawnCanvasActivity.class);
+                startActivityRecord.launch(intent);
             } else {
                 Toast.makeText(this, "FALTA PERMISOS", Toast.LENGTH_SHORT).show();
             }
@@ -161,4 +166,14 @@ public class MainActivityInstant extends AppCompatActivity {
     private boolean isCameraPresentInPhone() {
         return getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_ANY);
     }
+
+    ActivityResultLauncher<Intent> startActivityRecord = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                if (result.getResultCode() == Activity.RESULT_OK) {
+                    Log.d("HOLA", "HOLA");
+                } else {
+                    Log.d("HOLA", "HOLA");
+                }
+            });
 }

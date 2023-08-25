@@ -1,0 +1,16 @@
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="ResourceName">
+
+    <!-- Focused and not pressed -->
+    <item android:state_focused="true"
+        android:state_enabled="true"
+        android:color="#000" />
+
+    <!-- Focused and pressed -->
+    <item
+        android:state_enabled="false"
+        android:color="#c3c3c3" />
+
+    <!-- Default color -->
+    <item android:color="#fff" />
+
+</selector>

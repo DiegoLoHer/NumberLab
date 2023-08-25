@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="fad_layout_margin">32dp</dimen>
+    <dimen name="fad_view_margin">16dp</dimen>
+    <dimen name="fad_default_margin">8dp</dimen>
+
+    <dimen name="Fad_button_text_size">16sp</dimen>
+    <dimen name="Fad_button_width">180dp</dimen>
+    <dimen name="Fad_button_height">45dp</dimen>
+
+    <dimen name="Fad_stroke_small">4dp</dimen>
+    <dimen name="Fad_stroke_medium">8dp</dimen>
+    <dimen name="Fad_stroke_large">12dp</dimen>
+
+    <dimen name="camwid_icon_view_size" tools:ignore="ResourceName">42dp</dimen>
+    <dimen name="camwid_icon_view_margin" tools:ignore="ResourceName">16dp</dimen>
+
+    <dimen name="round_button_small" tools:ignore="ResourceName">32dp</dimen>
+    <dimen name="round_button_medium" tools:ignore="ResourceName">64dp</dimen>
+    <dimen name="round_button_large" tools:ignore="ResourceName">92dp</dimen>
+
+    <dimen name="margin_xsmall" tools:ignore="ResourceName">16dp</dimen>
+    <dimen name="margin_small" tools:ignore="ResourceName">32dp</dimen>
+    <dimen name="margin_medium" tools:ignore="ResourceName">48dp</dimen>
+    <dimen name="margin_large" tools:ignore="ResourceName">64dp</dimen>
+    <dimen name="margin_xlarge" tools:ignore="ResourceName">92dp</dimen>
+
+    <dimen name="spacing_small" tools:ignore="ResourceName">4dp</dimen>
+    <dimen name="spacing_medium" tools:ignore="ResourceName">8dp</dimen>
+    <dimen name="spacing_large" tools:ignore="ResourceName">16dp</dimen>
+
+    <dimen name="rect_button_margin" tools:ignore="ResourceName">12dp</dimen>
+    <dimen name="rect_button_width" tools:ignore="ResourceName">80dp</dimen>
+    <dimen name="rect_button_height" tools:ignore="ResourceName">24dp</dimen>
+    <dimen name="shutter_button_margin" tools:ignore="ResourceName">80dp</dimen>
+
+    <dimen name="sdkfad_base_button_height" tools:ignore="ResourceName">45dp</dimen>
+    <dimen name="sdkfad_base_button_width" tools:ignore="ResourceName">180dp</dimen>
+    <dimen name="sdkfad_base_button_text_size" tools:ignore="ResourceName">16sp</dimen>
+
+
+    <dimen name="Fad_camwid_icon_view_size">@dimen/camwid_icon_view_size</dimen>
+    <dimen name="Fad_camwid_icon_view_margin">@dimen/camwid_icon_view_margin</dimen>
+
+    <dimen name="Fad_round_button_small">@dimen/round_button_small</dimen>
+    <dimen name="Fad_round_button_medium">@dimen/round_button_medium</dimen>
+    <dimen name="Fad_round_button_large">@dimen/round_button_large</dimen>
+
+    <dimen name="Fad_margin_xsmall">@dimen/margin_xsmall</dimen>
+    <dimen name="Fad_margin_small">@dimen/margin_small</dimen>
+    <dimen name="Fad_margin_medium">@dimen/margin_medium</dimen>
+    <dimen name="Fad_margin_large">@dimen/margin_large</dimen>
+    <dimen name="Fad_margin_xlarge">@dimen/margin_xlarge</dimen>
+
+    <dimen name="Fad_spacing_small">@dimen/spacing_small</dimen>
+    <dimen name="Fad_spacing_medium">@dimen/spacing_medium</dimen>
+    <dimen name="Fad_spacing_large">@dimen/spacing_large</dimen>
+
+    <dimen name="Fad_rect_button_margin">@dimen/rect_button_margin</dimen>
+    <dimen name="Fad_rect_button_width">@dimen/rect_button_width</dimen>
+    <dimen name="Fad_rect_button_height">@dimen/rect_button_height</dimen>
+    <dimen name="Fad_shutter_button_margin">@dimen/shutter_button_margin</dimen>
+
+    <dimen name="Fad_base_button_height">@dimen/sdkfad_base_button_height</dimen>
+    <dimen name="Fad_base_button_width">@dimen/sdkfad_base_button_width</dimen>
+    <dimen name="Fad_base_button_text_size">@dimen/sdkfad_base_button_text_size</dimen>
+
+</resources>

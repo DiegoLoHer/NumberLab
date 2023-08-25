@@ -1,3 +1,38 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">RandomInstant</string>
+    <!-- video sign -->
+
+    <!-- video sign -->
+    <string name="video_sign_recoding_text" tools:ignore="ResourceName">Grabando</string>
+    <string name="video_sign_text_focus_face" tools:ignore="ResourceName">Enfoca tu rostro en la guía</string>
+    <string name="video_sign_face_detected_text" tools:ignore="ResourceName">Rostro detectado</string>
+    <string name="video_sign_face_not_detected_text" tools:ignore="ResourceName">Rostro no detectado</string>
+    <string name="video_sign_recoding_instructions_text" tools:ignore="ResourceName">Enfoca tu rsotro dentro de la guía, el proceso se reanudará automáticamente cuando se detecte su rostro</string>
+    <string name="video_sign_tap_text" tools:ignore="ResourceName">Si tu rostro ha sido detectado\ntoca aquí para inciar la firma</string>
+    <string name="video_sign_finish_text" tools:ignore="ResourceName">Terminar</string>
+    <string name="video_sign_result_sign" tools:ignore="ResourceName">Grafo de la firma</string>
+    <string name="video_sign_result_confirm" tools:ignore="ResourceName">Confirmar firma</string>
+    <string name="video_sign_result_retry" tools:ignore="ResourceName">Volver a firmar</string>
+
+
+    <string name="Fad_video_sign_recoding_text">@string/video_sign_recoding_text</string>
+    <string name="Fad_video_sign_text_focus_face">@string/video_sign_text_focus_face</string>
+    <string name="Fad_video_sign_face_detected_text">@string/video_sign_face_detected_text</string>
+    <string name="Fad_video_sign_face_not_detected_text">@string/video_sign_face_not_detected_text</string>
+    <string name="Fad_video_sign_recoding_instructions_text">@string/video_sign_recoding_instructions_text</string>
+    <string name="Fad_video_sign_tap_text">@string/video_sign_tap_text</string>
+    <string name="Fad_video_sign_finish_text">@string/video_sign_finish_text</string>
+    <string name="Fad_video_sign_result_sign">@string/video_sign_result_sign</string>
+    <string name="Fad_video_sign_result_confirm">@string/video_sign_result_confirm</string>
+    <string name="Fad_video_sign_result_retry">@string/video_sign_result_retry</string>
+
+    <string name="sign_clean_signature" tools:ignore="ResourceName">Limpiar firma</string>
+    <string name="sign_email_edit" tools:ignore="ResourceName">Ingresa email</string>
+    //
+    <string name="sign_email_msg" tools:ignore="ResourceName">Te falta ingresar email</string>
+
+    <string name="Fad_sign_clean_signature">@string/sign_clean_signature</string>
+    <string name="Fad_sign_email_edit">@string/sign_email_edit</string>
+    <string name="Fad_sign_email_msg">@string/sign_email_msg</string>
+
 </resources>

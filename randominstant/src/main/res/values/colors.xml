@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#B2B2B2</color>
+    <color name="Fad_primary_color">#A70635</color>
+    <color name="Fad_secondary_color">#868686</color>
+    <color name="Fad_disabled_color">#FFE4E4E4</color>
+    <color name="Fad_loader_background">#B2222121</color>
+    <color name="Fad_loader_bar_color">@color/Fad_primary_color</color>
+
 </resources>
